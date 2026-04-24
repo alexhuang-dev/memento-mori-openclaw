@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and runtime state
+.env
+.env.*
+!.env.example
+state.json
+*.state.json
+memento-mori-state*.json
+
+# Local exports
+journal.md
+journal.json
+exports/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

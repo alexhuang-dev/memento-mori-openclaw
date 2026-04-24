@@ -60,7 +60,7 @@ python scripts/life_stats.py export --format markdown --out journal.md
 From the parent directory that contains the skill folder:
 
 ```bash
-clawhub publish ./memento-mori --slug memento-mori --name "Memento Mori" --version 0.2.0 --tags life,journal,reflection,openclaw
+clawhub publish . --slug memento-mori --name "Memento Mori" --version 0.2.1 --tags life,journal,reflection,openclaw
 ```
 
 Before publishing, inspect `SKILL.md`, `scripts/life_stats.py`, and this install reference. The package intentionally contains only `SKILL.md`, `scripts/`, and `references/`.
