@@ -27,7 +27,7 @@ If the user expresses self-harm intent, suicidal thoughts, immediate danger, or 
 5. For weekly check-ins, run `checkin`, mention at most one `new_milestones` item, ask exactly one question, wait for the user, then save both raw text and a concise faithful summary.
 6. For journal queries, preserve the user's wording. Use summaries only for compact display.
 
-Read `references/philosophy.md` when tone matters or the user is emotionally sensitive. Read `references/install.md` when the user asks how to install, schedule, or publish the skill.
+Read `references/philosophy.md` when tone matters or the user is emotionally sensitive. Read `references/install.md` when the user asks how to install, schedule, or configure the skill.
 
 ## Script Commands
 

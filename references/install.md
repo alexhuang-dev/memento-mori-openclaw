@@ -55,16 +55,6 @@ python scripts/life_stats.py review --year 2026
 python scripts/life_stats.py export --format markdown --out journal.md
 ```
 
-## ClawHub Publishing
-
-From the parent directory that contains the skill folder:
-
-```bash
-clawhub publish . --slug memento-mori --name "Memento Mori" --version 0.2.1 --tags life,journal,reflection,openclaw
-```
-
-Before publishing, inspect `SKILL.md`, `scripts/life_stats.py`, and this install reference. The package intentionally contains only `SKILL.md`, `scripts/`, and `references/`.
-
 ## Weekly Reminder
 
 Use OpenClaw cron when the user wants the skill to proactively check in. Manual use does not require cron.

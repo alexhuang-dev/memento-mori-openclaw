@@ -1,6 +1,6 @@
 # Memento Mori OpenClaw Skill
 
-![Version](https://img.shields.io/badge/version-v0.2.1-2563eb)
+![Version](https://img.shields.io/badge/version-v0.2.2-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)
 [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE)
@@ -39,7 +39,7 @@ flowchart LR
 ```text
 SKILL.md                    OpenClaw skill instructions and frontmatter
 scripts/life_stats.py       Deterministic local state and calculation script
-references/install.md       Installation, scheduling, and ClawHub publishing notes
+references/install.md       Installation, scheduling, and local setup notes
 references/philosophy.md    Tone, design philosophy, and safety boundary
 tests/                      Minimal regression tests for the script
 ```
@@ -105,14 +105,6 @@ openclaw cron add \
   --channel last
 ```
 
-## ClawHub Publishing
-
-From the repository root:
-
-```bash
-clawhub publish . --slug memento-mori --name "Memento Mori" --version 0.2.1 --tags life,journal,reflection,openclaw
-```
-
 ## Safety And Privacy
 
 - The script is local-only and does not make network requests.
@@ -137,4 +129,3 @@ python scripts/life_stats.py checkin
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE).
-
