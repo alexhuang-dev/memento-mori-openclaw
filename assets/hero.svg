@@ -1,0 +1,108 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Memento Mori: a life-in-weeks journal for OpenClaw</title>
+  <desc id="desc">A quiet banner with a life calendar grid, title, and reflection line.</desc>
+  <rect width="1200" height="420" fill="#101418"/>
+  <rect x="1" y="1" width="1198" height="418" rx="18" stroke="#2F3A40" stroke-width="2"/>
+  <g opacity="0.72">
+    <rect x="70" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="88" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="106" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="124" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="142" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="160" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="178" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="196" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="214" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="232" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="250" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="268" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="286" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="304" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="322" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="340" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="358" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="376" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="394" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+    <rect x="412" y="72" width="11" height="11" rx="2" fill="#D7C6A1"/>
+  </g>
+  <g opacity="0.42">
+    <rect x="70" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="88" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="106" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="124" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="142" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="160" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="178" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="196" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="214" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="232" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="250" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="268" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="286" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="304" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="322" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="340" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="358" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="376" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="394" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="412" y="99" width="11" height="11" rx="2" fill="#E7E0CE"/>
+  </g>
+  <g opacity="0.22">
+    <rect x="70" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="88" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="106" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="124" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="142" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="160" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="178" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="196" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="214" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="232" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="250" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="268" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="286" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="304" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="322" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="340" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="358" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="376" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="394" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="412" y="126" width="11" height="11" rx="2" fill="#E7E0CE"/>
+  </g>
+  <g opacity="0.16">
+    <rect x="70" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="88" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="106" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="124" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="142" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="160" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="178" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="196" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="214" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="232" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="250" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="268" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="286" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="304" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="322" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="340" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="358" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="376" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="394" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+    <rect x="412" y="153" width="11" height="11" rx="2" fill="#E7E0CE"/>
+  </g>
+  <path d="M70 244H457" stroke="#42515A" stroke-width="1"/>
+  <text x="70" y="283" fill="#F5EFE0" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="0">Memento Mori</text>
+  <text x="70" y="319" fill="#D7C6A1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="0">A life-in-weeks journal for OpenClaw</text>
+  <text x="70" y="352" fill="#92A2AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="0">Keep one sentence from each week. Let the finite become visible.</text>
+  <g transform="translate(600 76)">
+    <rect x="0" y="0" width="520" height="268" rx="16" fill="#151C21" stroke="#2D3A42"/>
+    <text x="34" y="52" fill="#F5EFE0" font-family="Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="0">第 1,549 周。</text>
+    <text x="34" y="90" fill="#D7C6A1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="0">还剩 2,203 周。这周值得被记住吗？</text>
+    <rect x="34" y="128" width="352" height="14" rx="7" fill="#263139"/>
+    <rect x="34" y="128" width="146" height="14" rx="7" fill="#D7C6A1"/>
+    <text x="34" y="178" fill="#92A2AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="0">最近写下的：</text>
+    <text x="34" y="209" fill="#E7E0CE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="0">W1547: 第一次独立完成了一个完整项目</text>
+    <text x="34" y="237" fill="#77878F" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="0">W1548: —</text>
+  </g>
+</svg>
