@@ -101,7 +101,7 @@ openclaw skills check
 然后在 OpenClaw 对话中调用：
 
 ```text
-使用 memento_mori，帮我初始化。我生日是 1995-03-15，预期寿命先按 85 岁。
+使用 $memento_mori，帮我初始化。我生日是 1995-03-15，预期寿命先按 85 岁。
 ```
 
 ## 手动脚本用法
@@ -142,7 +142,7 @@ openclaw cron add \
   --cron "0 21 * * 0" \
   --tz "Asia/Shanghai" \
   --session isolated \
-  --message "使用 memento_mori 做每周提醒。运行 checkin，最多提一个新里程碑，然后问一个简短的本周反思问题。" \
+  --message "使用 $memento_mori 做每周提醒。运行 checkin，最多提一个新里程碑，然后问一个简短的本周反思问题。" \
   --announce \
   --channel last
 ```

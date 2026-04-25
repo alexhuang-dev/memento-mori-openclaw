@@ -181,7 +181,7 @@ python scripts/life_stats.py config set --life-expectancy-years 90
 python scripts/life_stats.py config set --checkin-style sharp
 ```
 
-Supported `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, `sharp`, `poetic`, `minimal`, and `terse`. Prefer `sharp` when the user wants the most shareable, screenshot-friendly reminder voice.
+Supported public `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, `sharp`, `poetic`, and `minimal`. Prefer `sharp` when the user wants the most shareable, screenshot-friendly reminder voice. `terse` remains accepted as a legacy/internal compatibility style, but do not recommend it in user-facing docs.
 
 ## User Intents
 

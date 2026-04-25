@@ -74,7 +74,7 @@ openclaw cron add \
   --channel last
 ```
 
-This means every Sunday at 21:00 in the host machine's configured timezone.
+This means every Sunday at 21:00 in the timezone specified by `--tz`.
 
 If the host uses another scheduler, preserve the same intent: one weekly reminder, preferably Sunday evening, with a message that explicitly invokes `$memento_mori`.
 
