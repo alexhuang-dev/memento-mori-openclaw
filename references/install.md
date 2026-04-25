@@ -50,6 +50,8 @@ Useful checks:
 
 ```bash
 python scripts/life_stats.py journal --entry "This week had one thing worth keeping." --summary "Kept one thing from the week."
+python scripts/life_stats.py share
+python scripts/life_stats.py share --format svg --out card.svg
 python scripts/life_stats.py stats --last-n 12
 python scripts/life_stats.py review --year 2026
 python scripts/life_stats.py export --format markdown --out journal.md
