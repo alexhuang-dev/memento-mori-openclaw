@@ -4,6 +4,8 @@
 
 # Memento Mori: A Life-in-Weeks Journal for OpenClaw
 
+[中文说明](README.zh-CN.md)
+
 ![Version](https://img.shields.io/badge/version-v0.3.1-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)

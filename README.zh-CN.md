@@ -4,6 +4,8 @@
 
 # Memento Mori：人生以周为单位
 
+[English README](README.md)
+
 ![版本](https://img.shields.io/badge/version-v0.3.1-2563eb)
 ![运行环境](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![技能](https://img.shields.io/badge/OpenClaw-skill-0f766e)
