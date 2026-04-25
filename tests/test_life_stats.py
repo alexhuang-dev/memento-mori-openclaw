@@ -166,6 +166,16 @@ class LifeStatsCliTest(unittest.TestCase):
             self.assertEqual(payload["checkin_style"], "sharp")
             self.assertIn("你没有失去一天", payload["suggested_opening"])
 
+    def test_config_set_subcommand_style(self):
+        result = self.run_cli("config", "set", "--checkin-style", "sharp")
+        payload = json.loads(result.stdout)
+        self.assertEqual(payload["config"]["checkin_style"], "sharp")
+
+    def test_config_show_subcommand_style(self):
+        result = self.run_cli("config", "show")
+        payload = json.loads(result.stdout)
+        self.assertIn("config", payload)
+
 
 if __name__ == "__main__":
     unittest.main()
