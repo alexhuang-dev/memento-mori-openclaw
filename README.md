@@ -1,15 +1,19 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="Memento Mori: A life-in-weeks journal for OpenClaw" width="100%">
+</p>
+
 # Memento Mori: A Life-in-Weeks Journal for OpenClaw
 
-![Version](https://img.shields.io/badge/version-v0.2.3-2563eb)
+![Version](https://img.shields.io/badge/version-v0.2.4-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)
 [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE)
 
 [中文说明](README.zh-CN.md)
 
-Memento Mori is a quiet OpenClaw skill for seeing your life in weeks, keeping one sentence from each week, and turning time into a local journal.
+Memento Mori is a quiet OpenClaw skill for people who want time to feel less abstract. It turns a life into weeks, asks one question at the end of each week, and keeps the answer in a local journal.
 
-It does not try to optimize your life. It simply makes time visible, asks what was worth remembering, and leaves a trail you can return to later.
+It is not a productivity tracker. It is a small ritual for remembering that a life is finite, and that some weeks deserve to be kept.
 
 > You are not spending time. Time is spending you.
 
