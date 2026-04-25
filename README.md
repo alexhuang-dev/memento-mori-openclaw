@@ -4,12 +4,10 @@
 
 # Memento Mori: A Life-in-Weeks Journal for OpenClaw
 
-![Version](https://img.shields.io/badge/version-v0.3.0-2563eb)
+![Version](https://img.shields.io/badge/version-v0.3.1-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
-
-[中文说明](README.zh-CN.md)
 
 Most people do not live in years.
 They live in weeks.
@@ -23,22 +21,28 @@ It is not a productivity tracker. It is an AI companion ritual: a local-first Op
 ## Demo Moment
 
 ```text
-你已经活了 11,363 天。
+You have lived 11,363 days.
 
-如果按 85 年计算，
-你的人生大约有 4,435 周。
+At an 85-year life expectancy,
+your life is about 4,435 weeks.
 
-你已经用掉了 1,623 周。
-还剩大约 2,812 周。
+You have used 1,623 weeks.
+About 2,812 weeks remain.
 
 ████████████░░░░░░░░░░░░░░░░░░░░ 37%
 
-这不是倒计时。
-这是提醒你：
-有些星期，不该空白地过去。
+This is not a countdown.
+It is a reminder:
+some weeks should not pass blank.
 
-这一周，你想留下什么？
+What do you want to keep from this week?
 ```
+
+## Share Card
+
+<p align="center">
+  <img src="assets/share-card-demo.svg" alt="Memento Mori share card" width="720">
+</p>
 
 ## What It Does
 
@@ -106,6 +110,7 @@ python scripts/life_stats.py read
 python scripts/life_stats.py journal --entry "This week had one thing worth keeping." --summary "Kept one thing from the week."
 python scripts/life_stats.py share
 python scripts/life_stats.py share --format svg --out card.svg
+python scripts/life_stats.py config set --checkin-style sharp
 python scripts/life_stats.py stats --last-n 12
 python scripts/life_stats.py review --year 2026
 python scripts/life_stats.py export --format markdown --out journal.md
@@ -131,7 +136,7 @@ Manual use does not require cron. Use cron only when you want proactive weekly c
 openclaw cron add \
   --name "memento-mori-weekly" \
   --cron "0 21 * * 0" \
-  --tz "Asia/Shanghai" \
+  --tz "UTC" \
   --session isolated \
   --message "Use $memento_mori for the weekly check-in. Run checkin, mention at most one new milestone, then ask one short reflection question." \
   --announce \
