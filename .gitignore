@@ -21,6 +21,8 @@ memento-mori-state*.json
 # Local exports
 journal.md
 journal.json
+card.svg
+life-card.svg
 exports/
 
 # OS/editor noise
@@ -28,4 +30,3 @@ exports/
 Thumbs.db
 .idea/
 .vscode/
-
