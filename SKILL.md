@@ -1,6 +1,6 @@
 ---
 name: memento_mori
-description: Personal memento mori and life-in-weeks journaling system for OpenClaw. Use when the user asks about remaining lifetime, life calendar, memento mori, death countdown, "how many weeks do I have left", weekly reflection/check-ins, life milestones, setup with birthdate/life expectancy, viewing or exporting life journal entries, saving a remembered moment, annual review, recent-week summary, streaks, or configuring the reminder style.
+description: Personal memento mori and life-in-weeks journaling ritual for OpenClaw. Use when the user asks about remaining lifetime, life calendar, memento mori, death countdown, "how many weeks do I have left", weekly reflection/check-ins, life milestones, setup with birthdate/life expectancy, viewing or exporting life journal entries, saving a remembered moment, shareable life cards, annual review, recent-week summary, streaks, or configuring the reminder style.
 metadata:
   openclaw:
     requires:
@@ -10,7 +10,7 @@ metadata:
 
 # Memento Mori
 
-Use this OpenClaw skill to help the user see life as a finite number of weeks and turn weekly reflection into a cumulative journal. Be direct about mortality, but keep the tone calm, grounded, and non-dramatic.
+Use this OpenClaw skill to help the user see life as a finite number of weeks and turn weekly reflection into a cumulative journal. Treat it as an AI companion ritual, not a productivity tracker. Be direct about mortality, but keep the tone calm, grounded, and non-dramatic.
 
 Use OpenClaw's shell/exec capability to run `scripts/life_stats.py`; do not rely on Codex-specific metadata.
 
@@ -39,8 +39,10 @@ python scripts/life_stats.py journal --week 2026-W17 --entry "I finished the fir
 python scripts/life_stats.py log --last-n 10
 python scripts/life_stats.py stats --last-n 12
 python scripts/life_stats.py review --year 2026
+python scripts/life_stats.py share
+python scripts/life_stats.py share --format svg --out card.svg
 python scripts/life_stats.py config show
-python scripts/life_stats.py config set --life-expectancy-years 90 --checkin-style gentle
+python scripts/life_stats.py config set --life-expectancy-years 90 --checkin-style sharp
 python scripts/life_stats.py export --format markdown --out journal.md
 ```
 
@@ -96,17 +98,18 @@ On a scheduled reminder:
 
 1. Run `python scripts/life_stats.py checkin`.
 2. If `new_milestones` is not empty, mention only the first meaningful milestone.
-3. Send one short line with `weeks_lived` and/or `weeks_left`.
+3. Prefer the returned `suggested_opening` unless the user has clearly asked for a different voice.
 4. After the user replies, call `journal` with:
    - `--entry`: the user's original wording, lightly cleaned only if needed.
    - `--summary`: one faithful sentence, no embellishment.
 
 Good openings:
 
-- `第 1,549 周。还剩 2,203 周。这周值得被记住吗？`
-- `你的第 1,549 周结束了。一句话，留下来？`
-- `2,203 周。这周你用它做了什么？`
-- `今晚是你第 1,549 周的最后一个星期天。`
+- `stoic`: `第 1,549 周。还剩 2,203 周。这一周是否值得记录？`
+- `gentle`: `这一周也走到尾声了。普通的一周也可以被留下来。一句话就好。`
+- `sharp`: `你没有失去一天。你失去的是这一整周。要留下些什么吗？`
+- `poetic`: `这一格，要留下什么？`
+- `minimal`: `第 1,549 周。还剩 2,203 周。留下些什么？`
 
 Avoid emojis, cheerleading, long comfort, productivity advice, and lines like `你还有很多时间`.
 
@@ -158,6 +161,17 @@ Do not over-explain milestones.
 - Annual review: run `review --year YYYY`, then write a calm year-in-review using concrete entries. Do not turn it into productivity advice.
 - Journal browsing: run `log --last-n N` or `log --year YYYY`.
 
+## Share Cards
+
+Use `share` when the user asks to share, screenshot, post, or show their life calendar.
+
+```bash
+python scripts/life_stats.py share
+python scripts/life_stats.py share --format svg --out card.svg
+```
+
+For text output, present it as a compact card. For SVG output, tell the user where the file was written. Do not include private journal entries unless the user explicitly asked to share them.
+
 ## Configuration
 
 Use `config show` to inspect profile and behavior. Use `config set` for changes:
@@ -167,7 +181,7 @@ python scripts/life_stats.py config set --life-expectancy-years 90
 python scripts/life_stats.py config set --checkin-style terse
 ```
 
-Supported `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, and `terse`.
+Supported `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, `sharp`, `poetic`, `minimal`, and `terse`.
 
 ## User Intents
 
@@ -175,6 +189,7 @@ Supported `checkin_style` values are informal guidance for the agent: `stoic`, `
 - Setup or update birthdate/life expectancy: run `setup` or `config set`, then show the overview.
 - Save this week: run `journal`; if no week is specified, let the script use the current ISO week.
 - View journal: run `log`, optionally with `last_n` or `year`.
+- Share life card: run `share`, optionally with `format=svg` and `out`.
 - Recent summary: run `stats`, then explain patterns briefly.
 - Annual review: run `review`, then synthesize the year from the entries.
 - Export journal: run `export` with `format` set to `markdown` or `json`; use `--out` when the user asks for a file.
