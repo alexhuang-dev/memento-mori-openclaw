@@ -4,18 +4,41 @@
 
 # Memento Mori: A Life-in-Weeks Journal for OpenClaw
 
-![Version](https://img.shields.io/badge/version-v0.2.4-2563eb)
+![Version](https://img.shields.io/badge/version-v0.3.0-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)
-[![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 [中文说明](README.zh-CN.md)
 
-Memento Mori is a quiet OpenClaw skill for people who want time to feel less abstract. It turns a life into weeks, asks one question at the end of each week, and keeps the answer in a local journal.
+Most people do not live in years.
+They live in weeks.
 
-It is not a productivity tracker. It is a small ritual for remembering that a life is finite, and that some weeks deserve to be kept.
+Memento Mori turns your life into a finite number of weeks, then asks one quiet question every Sunday:
 
-> You are not spending time. Time is spending you.
+> What is worth keeping from this week?
+
+It is not a productivity tracker. It is an AI companion ritual: a local-first OpenClaw skill for seeing time, keeping one sentence, and letting ordinary weeks become visible.
+
+## Demo Moment
+
+```text
+你已经活了 11,363 天。
+
+如果按 85 年计算，
+你的人生大约有 4,435 周。
+
+你已经用掉了 1,623 周。
+还剩大约 2,812 周。
+
+████████████░░░░░░░░░░░░░░░░░░░░ 37%
+
+这不是倒计时。
+这是提醒你：
+有些星期，不该空白地过去。
+
+这一周，你想留下什么？
+```
 
 ## What It Does
 
@@ -23,7 +46,9 @@ It is not a productivity tracker. It is a small ritual for remembering that a li
 |---|---|
 | Life overview | Days lived, weeks lived, weeks left, progress bar, estimated end date |
 | Weekly check-in | OpenClaw cron-friendly `checkin` command with milestone de-duplication |
+| Voice styles | `stoic`, `gentle`, `sharp`, `poetic`, and `minimal` check-in modes |
 | Journal | Stores both raw user wording and a concise summary |
+| Share card | Screenshot-friendly text card and SVG export via `share` |
 | Review | Recent-week stats, empty weeks, streaks, top terms, annual review data |
 | Export | Markdown and JSON export, either printed or written to a file |
 | Safety | Avoids countdown framing when the user expresses self-harm or acute hopelessness |
@@ -79,6 +104,8 @@ Run commands from the repository root:
 python scripts/life_stats.py setup --birthdate 1995-03-15 --life-expectancy-years 85
 python scripts/life_stats.py read
 python scripts/life_stats.py journal --entry "This week had one thing worth keeping." --summary "Kept one thing from the week."
+python scripts/life_stats.py share
+python scripts/life_stats.py share --format svg --out card.svg
 python scripts/life_stats.py stats --last-n 12
 python scripts/life_stats.py review --year 2026
 python scripts/life_stats.py export --format markdown --out journal.md
@@ -132,6 +159,19 @@ python scripts/life_stats.py setup --birthdate 1995-03-15 --life-expectancy-year
 python scripts/life_stats.py checkin
 ```
 
+## Positioning
+
+```text
+Not a productivity tracker.
+A memory ritual.
+
+Not a dashboard.
+A quiet weekly interruption.
+
+Not a life hack.
+A small box for the week you almost forgot.
+```
+
 ## License
 
-Apache License 2.0. See [LICENSE](LICENSE).
+MIT License. See [LICENSE](LICENSE).
