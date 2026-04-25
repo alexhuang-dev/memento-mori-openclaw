@@ -1,12 +1,20 @@
 # Changelog
 
+## v0.3.1
+
+- Fixed natural `config set` and `config show` subcommand usage.
+- Expanded GitHub Actions to Python 3.10, 3.11, and 3.12.
+- Added share card demo SVG for README preview.
+- Added English share output example.
+- Separated English and Chinese README content more cleanly.
+
 ## v0.3.0
 
 - Switched license from Apache-2.0 to MIT to make remixing and reuse easier.
 - Added `share` command for screenshot-friendly life card text.
 - Added `share --format svg --out card.svg` for visual life cards.
 - Added check-in voice styles: `stoic`, `gentle`, `sharp`, `poetic`, `minimal`, and `terse`.
-- Added example share output.
+- Added example share output files.
 - Reworked README copy around the "AI companion ritual" positioning.
 
 ## v0.2.4
@@ -29,4 +37,3 @@
 ## v0.2.0
 
 - Initial OpenClaw-ready skill package.
-
