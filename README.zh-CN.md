@@ -1,15 +1,19 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="Memento Mori：人生以周为单位" width="100%">
+</p>
+
 # Memento Mori：人生以周为单位
 
-![Version](https://img.shields.io/badge/version-v0.2.3-2563eb)
+![Version](https://img.shields.io/badge/version-v0.2.4-2563eb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-0f766e)
 [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE)
 
 [English](README.md)
 
-Memento Mori 是一个安静的 OpenClaw skill：让你看见人生还剩多少周，每周留下一句话，把时间慢慢沉淀成一本本地日志。
+Memento Mori 是一个安静的 OpenClaw skill，给那些想把时间看得更清楚的人。它把人生折成一周一周的格子，在每周结束时问一个问题，再把答案留进本地日志。
 
-它不试图优化你的人生。它只是让时间变得可见，问这一周有什么值得记住，然后把答案留下来，等未来的你回头看。
+它不是生产力工具，而是一种小小的仪式：提醒你生命有限，也提醒你有些星期值得被留下。
 
 > 你不是在消耗时间，时间在消耗你。
 
