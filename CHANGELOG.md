@@ -7,6 +7,10 @@
 - Added share card demo SVG for README preview.
 - Added English share output example.
 - Separated English and Chinese README content more cleanly.
+- Aligned README install paths with the default user-level state location.
+- Switched the README cron example to `Asia/Shanghai` with a local-timezone note.
+- Standardized the recommended check-in style around `sharp`.
+- Added philosophy references and a short Chinese video demo script.
 
 ## v0.3.0
 

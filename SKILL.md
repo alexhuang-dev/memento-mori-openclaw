@@ -178,10 +178,10 @@ Use `config show` to inspect profile and behavior. Use `config set` for changes:
 
 ```bash
 python scripts/life_stats.py config set --life-expectancy-years 90
-python scripts/life_stats.py config set --checkin-style terse
+python scripts/life_stats.py config set --checkin-style sharp
 ```
 
-Supported `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, `sharp`, `poetic`, `minimal`, and `terse`.
+Supported `checkin_style` values are informal guidance for the agent: `stoic`, `gentle`, `sharp`, `poetic`, `minimal`, and `terse`. Prefer `sharp` when the user wants the most shareable, screenshot-friendly reminder voice.
 
 ## User Intents
 

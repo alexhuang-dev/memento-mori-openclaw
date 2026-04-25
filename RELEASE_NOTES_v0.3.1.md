@@ -1,14 +1,19 @@
-# Release Notes v0.3.1
+# v0.3.1 — Share Cards, Weekly Check-ins, and Configurable Voices
 
-## Fixes
+## Highlights
+
+- Added screenshot-friendly share cards.
+- Added configurable weekly check-in styles.
+- Preserved both raw journal entries and concise summaries.
+- Added review, stats, and export commands.
+- Added regression tests and GitHub Actions CI.
+
+Memento Mori is now usable as a local-first OpenClaw ritual skill.
+
+## Polish
 
 - Fixed natural `config set` and `config show` subcommand usage.
-- Added tests for config subcommands.
-
-## Packaging
-
-- Expanded GitHub Actions to Python 3.10, 3.11, and 3.12.
-- Added `assets/share-card-demo.svg` for README preview.
-- Added `examples/share-output.txt` alongside the existing Chinese sample.
-- Separated English and Chinese README content more cleanly.
-
+- Aligned README install paths with the default state location.
+- Switched the README cron example to `Asia/Shanghai` with a local-timezone note.
+- Standardized the recommended check-in style around `sharp`.
+- Added philosophy references and a short Chinese video demo script.

@@ -18,6 +18,8 @@ Memento Mori turns your life into a finite number of weeks, then asks one quiet 
 
 It is not a productivity tracker. It is an AI companion ritual: a local-first OpenClaw skill for seeing time, keeping one sentence, and letting ordinary weeks become visible.
 
+It turns life into weeks, not to optimize you, but to return one nearly forgotten week to memory.
+
 ## Demo Moment
 
 ```text
@@ -84,8 +86,10 @@ tests/                      Minimal regression tests for the script
 Clone the repository into an OpenClaw skills directory:
 
 ```powershell
-git clone https://github.com/alexhuang-dev/memento-mori-openclaw.git "$env:USERPROFILE\.openclaw\workspace\skills\memento-mori"
+git clone https://github.com/alexhuang-dev/memento-mori-openclaw.git "$env:USERPROFILE\.openclaw\skills\memento-mori"
 ```
+
+Workspace installs also work, but runtime state is stored in `~/.openclaw/skills/memento-mori/state.json` by default unless `MEMENTO_MORI_STATE` is set.
 
 Restart or refresh OpenClaw so it reloads skills:
 
@@ -136,12 +140,14 @@ Manual use does not require cron. Use cron only when you want proactive weekly c
 openclaw cron add \
   --name "memento-mori-weekly" \
   --cron "0 21 * * 0" \
-  --tz "UTC" \
+  --tz "Asia/Shanghai" \
   --session isolated \
   --message "Use $memento_mori for the weekly check-in. Run checkin, mention at most one new milestone, then ask one short reflection question." \
   --announce \
   --channel last
 ```
+
+Change `Asia/Shanghai` to your local timezone if needed.
 
 ## Safety And Privacy
 

@@ -56,3 +56,8 @@ Oliver Burkeman 在《四千周》里强调：普通人的生命大约只有 400
 好的语气：加缪式的清醒、余华早期的克制、《人生》里高加林的内心独白、《活着》的平静叙述。
 
 避免的语气：心灵鸡汤、励志演讲、恐吓、葬礼主持、效率工具、"每天都是礼物"式的正能量。
+
+## References
+
+- Tim Urban, "Your Life in Weeks", Wait But Why.
+- Oliver Burkeman, *Four Thousand Weeks: Time Management for Mortals*, Farrar, Straus and Giroux, 2021.
