@@ -707,12 +707,9 @@ def cmd_export(args: dict[str, Any]) -> None:
 def main(argv: list[str]) -> int:
     command = argv[1] if len(argv) > 1 else "read"
     raw_args = argv[2:]
-    if command == "config" and raw_args and not raw_args[0].startswith("--") and not raw_args[0].startswith("{"):
-        action = raw_args[0]
-        args = parse_command_args(raw_args[1:])
-        args["action"] = action
-    else:
-        args = parse_command_args(raw_args)
+    if command == "config" and raw_args and raw_args[0] in {"show", "set"}:
+        raw_args = ["--action", raw_args[0], *raw_args[1:]]
+    args = parse_command_args(raw_args)
 
     commands = {
         "read": lambda: cmd_read(args),
